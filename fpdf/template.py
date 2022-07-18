@@ -637,7 +637,6 @@ class Template(FlexTemplate):
                 stacklevel=2,
             )
         for arg in (
-            "format",
             "orientation",
             "unit",
             "title",
