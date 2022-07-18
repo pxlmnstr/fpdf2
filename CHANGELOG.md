@@ -26,6 +26,7 @@ This can also be enabled programmatically with `warnings.simplefilter('default',
 ### Fixed
 - properly parsing single-digits arguments in SVG paths - _cf._ [#450](https://github.com/PyFPDF/fpdf2/issues/450)
 - document outline encoding: it was found to be broken when using a thai font - _cf._ [#458](https://github.com/PyFPDF/fpdf2/issues/458)
+- template constructor did not accept tuples for document format
 
 ## [2.5.5] - 2022-06-17
 ### Added
